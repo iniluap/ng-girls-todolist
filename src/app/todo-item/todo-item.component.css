@@ -1,0 +1,47 @@
+.todo-item {
+  padding: 10px 0;
+  border-top: solid 1px #ddd;
+  min-height: 30px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+​
+.todo-checkbox {
+  flex-shrink: 0;
+  margin: auto 1ex auto 0;
+}
+​
+.todo-title {
+  flex-grow: 1;
+  padding-left: 11px;
+}
+
+.btn {
+  background: lightseagreen;
+  color: #fff;
+  padding: 3px 10px;
+  margin: 0 0 0 3px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 24px;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+​
+.btn:hover {
+  background: lightslategrey;
+}
+
+.btn-red {
+  background: red;
+}
+​
+.btn-red:hover {
+  background: darkred;
+}
+
+.todo-complete {
+  text-decoration: line-through;
+}
